@@ -14,7 +14,7 @@ public class anagram_ques {
 		Arrays.sort(ch1);
 		String s=new String(ch);
 		String ss=new String(ch1);
-		if(s.equalsIgnoreCase(ss))
+		if(s.equals(ss))
 				{
 			System.out.print("Anagrams");
 				}
